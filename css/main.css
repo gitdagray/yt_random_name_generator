@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.35px;
+    color: #fff;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgba(30,144,255,0.4);
+    background-image: url('../img/code.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header, main {
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+header i {
+    font-size: 5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+}
+
+main {
+    margin-top: 10px;
+}
+
+section {
+    position: relative;
+}
+
+.submitSection__form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitSection__form input, 
+.submitSection__form button {
+    font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.submitSection__form input {
+    width: calc(100% - 60px);
+}
+
+.submitSection__form button {
+    min-width: 48px;
+    min-height: 48px;
+    cursor: pointer;
+    background-color: limegreen;
+    color: #fff;
+    letter-spacing: 1.35px;
+    font-weight: bold;
+}
+
+.suggestionSection {
+    padding-top: 20px;
+}
+
+.suggestionSection h2 {
+    padding-bottom: 20px;
+}
+
+.suggestionSection a, 
+.suggestionSection a:hover, 
+.suggestionSection a:focus {
+    color: #fff; 
+    text-decoration: none;
+}
+
+ol {
+    margin-left: 20px;
+    word-break: break-all;
+    font-size: 1.15rem;
+}
+
+ol > ul {
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+ul > li {
+    margin-top: 10px;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    ol {
+        margin-left: 40px;
+        font-size: 1.5rem;
+    }
+}

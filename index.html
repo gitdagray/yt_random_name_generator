@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <i class="fab fa-youtube"></i>
+        <h1>Code Channel Random Name Generator</h1>
+    </header>
+    
+    <main>
+        <section class="submitSection">
+            <h2 id="formHeading" class="offscreen">Enter Your First Name</h2>
+            <form id="submitForm" class="submitSection__form">
+                <input 
+                    type="text" 
+                    id="submitSection__textInput" 
+                    class="submitSection__textInput" 
+                    required 
+                    maxlength="20" 
+                    placeholder="Enter First Name" 
+                    aria-labelledby="formHeading">
+                <button class="submitSection__button" aria-label="Submit">
+                    <i class="fas fa-check"></i>
+                </button>
+            </form>
+        </section>
+
+        <section id="suggestionSection" class="suggestionSection hidden">
+            <h2>Suggestions:</h2>
+            <ol></ol>
+            <p>YMMV: Click the name to see if it is already taken.</p>
+        </section>
+    </main>
+</body>
+</html>
