@@ -8,7 +8,7 @@ Build a Random Name Generator App Project with Vanilla JavaScript, HTML, and CSS
 
 If you have completed my [8 hour JavaScript course tutorial video](https://youtu.be/EfAl9bwzVZk), this is a great project for pulling some of those concepts together in one application.
 
-YouTube: [Build a Random Name Generator with Vanilla JavaScript, HTML, CSS](link)
+YouTube: [Build a Random Name Generator with Vanilla JavaScript, HTML, CSS](https://youtu.be/dAdIQrk0WMk)
 
 ### Academic Honesty
 
